@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="strutnut:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a75c9e08-9dd0-411b-be29-ab7b3865e89c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../vuelab/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vuelab/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vuelab/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vuelab/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vuelab/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vuelab/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vuelab/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vuelab/src/views/Home.vue" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="a17f301a-7bb0-4120-951f-4a348eeeb711" value="Orange" />
+    </colors>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="strutnut" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Kotlin File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>id</find>
+      <find>adddress</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../vuelab" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/../vuelab/vuelab.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XjN4rpQKXk1agZnUSibs3raZvM" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/strutnut/pojo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.20256111" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\strutnut\src\main\java\com\strutnut\dao\mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9090/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="strutnut:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_strutnut" />
+        <option name="HTTP_PORT" value="9090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58557" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="strutnut:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a75c9e08-9dd0-411b-be29-ab7b3865e89c" name="Default Changelist" comment="" />
+      <created>1581059353810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581059353810</updated>
+      <workItem from="1581059363666" duration="1406000" />
+      <workItem from="1581061342954" duration="1581000" />
+      <workItem from="1581123969002" duration="3770000" />
+      <workItem from="1581299399923" duration="3031000" />
+      <workItem from="1581321793462" duration="3273000" />
+      <workItem from="1581382471244" duration="5358000" />
+      <workItem from="1581401450955" duration="184000" />
+      <workItem from="1581404719484" duration="3931000" />
+      <workItem from="1581468563480" duration="8304000" />
+      <workItem from="1581487954679" duration="1217000" />
+      <workItem from="1581490410296" duration="179000" />
+      <workItem from="1581555363166" duration="5348000" />
+      <workItem from="1581574294788" duration="5396000" />
+      <workItem from="1581640812435" duration="4752000" />
+      <workItem from="1581653358752" duration="469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="69" key="#SQL_Dialects" timestamp="1581647816109">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="361" y="69" key="#SQL_Dialects/0.0.1536.821@0.0.1536.821" timestamp="1581647816109" />
+    <state x="361" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581557799731">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="361" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.821@0.0.1536.821" timestamp="1581557799731" />
+    <state x="497" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581575949474">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="497" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.821@0.0.1536.821" timestamp="1581575949474" />
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1581647138567">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.821@0.0.1536.821" timestamp="1581647138567" />
+    <state x="481" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581557733057">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="481" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.821@0.0.1536.821" timestamp="1581557733057" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1581557790215">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.821@0.0.1536.821" timestamp="1581557790215" />
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1581577617862">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1581577617862" />
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1581581563294">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1581581563294" />
+    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1581581563293">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1581581563293" />
+    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1581581563293">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1581581563293" />
+    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1581581563294">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1581581563294" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1581576648622">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1581576648622" />
+    <state x="485" y="50" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581558924868">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="485" y="50" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.821@0.0.1536.821" timestamp="1581558924868" />
+    <state x="621" y="124" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1581556615605">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="621" y="124" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.821@0.0.1536.821" timestamp="1581556615605" />
+    <state x="178" y="21" key="new project wizard" timestamp="1581648512521">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="178" y="21" key="new project wizard/0.0.1536.821@0.0.1536.821" timestamp="1581648512521" />
+  </component>
+</project>

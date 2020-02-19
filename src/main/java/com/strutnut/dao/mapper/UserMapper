@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.strutnut.dao.IUserMapper">
+<insert id="addUser" parameterType="map">
+    INSERT INTO blog.user(uname, age, sex, account, email) VALUES (#{uname},#{age},#{sex},#{account},#{email});
+</insert>
+</mapper>
