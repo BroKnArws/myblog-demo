@@ -1,4 +1,4 @@
 package com.strutnut.service;
 
-public interface IUserService {
+public interface ILogsService {
 }

@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!--   配置环境群-->
     <environments default="mysql">
@@ -17,7 +21,7 @@
     </environments>
 
     <!-- 配置mapper -->
-    <mapper>
-        <mapper resource="com/strutnut/dao/UserMapper.xml"></mapper>
+    <mappers>
+        <mapper resource="com/strutnut/dao/mapper/UserMapper.xml"></mapper>
     </mappers>
 </configuration>

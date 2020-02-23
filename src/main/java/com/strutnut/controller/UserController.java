@@ -2,46 +2,57 @@ package com.strutnut.controller;
 
 
 import com.strutnut.service.IUserService;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.IncorrectCredentialsException;
+import org.apache.shiro.authc.UnknownAccountException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.crypto.hash.Md5Hash;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
-    @Autowired
-    private IUserService userService;
 
-    @RequestMapping("/login")
-    public String hello(@RequestParam("username") String userName,@RequestParam("userpassword") String account)
-    {
-        String temp="admin";
-        if(temp.equals(userName)&&temp.equals(account))
-        {
-            return "1";
-        }
-        else
-        {
-            return "0";
-        }
+    private final IUserService userService;
+
+    @Autowired
+    public UserController(IUserService userService) {
+        this.userService = userService;
     }
 
-    @RequestMapping("/register")
-    public void registerUser(@RequestParam("username") String uname,@RequestParam("age") String age,
-                             @RequestParam("sex") String sex,@RequestParam("account") String account,
-                             @RequestParam("email") String email){
-        Map<String,String> userMap=new HashMap<>();
-        userMap.put(uname,uname);
-        userMap.put(age,age);
-        userMap.put(sex,sex);
-        userMap.put(account,account);
-        userMap.put(email,email);
-        userService.addUser(userMap);
+
+    @RequestMapping("/login")
+    public String login(@RequestParam("useremail") String email,
+                        @RequestParam("userpassword") String password) {
+        UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(
+                email,
+//                 暂不加密
+//                new Md5Hash(password, email + password, 1000).toString()
+                password
+        );
+        Subject subject = SecurityUtils.getSubject();
+        if (!subject.isAuthenticated()) {
+            try {
+                subject.login(usernamePasswordToken);
+            } catch (UnknownAccountException e) {
+                System.out.println("账号错误");
+                return "AccountError";
+            } catch (IncorrectCredentialsException e) {
+                System.out.println("密码错误");
+                return "PasswordError";
+            } catch (AuthenticationException e) {
+                System.out.println("认证失败");
+                return "AuthenticationError";
+            }
+        }
+        return "OK";
+
     }
 }

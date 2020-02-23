@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!--   配置环境群-->
     <environments default="mysql">
@@ -9,15 +13,21 @@
             <dataSource type="POOLED">
                 <!--配置连接数据库的4个基本信息-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/blog?serverTimezone=UTC">
+                <property name="url" value="jdbc:mysql://localhost:3306/blog?serverTimezone=UTC"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
 
+
     <!-- 配置mapper -->
     <mappers>
-        <mapper resource="com/strutnut/dao/mapper/UserMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/UserMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/PostMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/CategoryMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/LogsMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/ThemeMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/RoleMapper.xml"></mapper>
     </mappers>
 </configuration>
