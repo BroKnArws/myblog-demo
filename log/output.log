@@ -1,0 +1,6 @@
+15:40:58.760 [main] INFO  com.strutnut.MyTest - info
+15:40:58.765 [main] WARN  com.strutnut.MyTest - warn
+15:40:58.766 [main] ERROR com.strutnut.MyTest - error
+15:43:34.679 [main] INFO  com.strutnut.MyTest - info
+15:43:34.682 [main] WARN  com.strutnut.MyTest - warn
+15:43:34.683 [main] ERROR com.strutnut.MyTest - error

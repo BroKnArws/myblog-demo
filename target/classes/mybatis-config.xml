@@ -3,25 +3,31 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <!--   é…ç½®çŽ¯å¢ƒç¾¤-->
+    <!--   ÅäÖÃ»·¾³Èº-->
     <environments default="mysql">
-        <!--é…ç½®çŽ¯å¢ƒ-->
+        <!--ÅäÖÃ»·¾³-->
         <environment id="mysql">
-            <!--é…ç½®äº‹åŠ¡çš„ç±»åž‹-->
+            <!--ÅäÖÃÊÂÎñµÄÀàÐÍ-->
             <transactionManager type="JDBC"></transactionManager>
-            <!--é…ç½®è¿žæŽ¥æ± -->
+            <!--ÅäÖÃÁ¬½Ó³Ø-->
             <dataSource type="POOLED">
-                <!--é…ç½®è¿žæŽ¥æ•°æ®åº“çš„4ä¸ªåŸºæœ¬ä¿¡æ¯-->
+                <!--ÅäÖÃÁ¬½ÓÊý¾Ý¿âµÄ4¸ö»ù±¾ÐÅÏ¢-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/blog?serverTimezone=UTC">
+                <property name="url" value="jdbc:mysql://localhost:3306/blog?serverTimezone=UTC"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
 
-    <!-- é…ç½®mapper -->
+
+    <!-- ÅäÖÃmapper -->
     <mappers>
-        <mapper resource="com/strutnut/dao/mapper/UserMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/UserMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/PostMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/CategoryMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/LogsMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/ThemeMapper.xml"></mapper>
+        <mapper resource="com/strutnut/dao/impl/RoleMapper.xml"></mapper>
     </mappers>
 </configuration>

@@ -1,4 +1,4 @@
-package com.strutnut.pojo;
+package com.strutnut.bean;
 
 
 public class Role {

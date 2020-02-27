@@ -3,5 +3,29 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.strutnut.dao.IUserMapper">
+    <select id="findUserByEmail" resultMap="userMap">
+        SELECT *
+        FROM user u
+                 left join tb_user_role ur
+                           on u.uid = ur.uid
+                 left join role r
+                           on ur.rid = r.rid
+        WHERE u.email = #{email}
 
+    </select>
+
+    <resultMap id="userMap" type="com.strutnut.bean.User">
+        <id property="uid" column="uid"></id>
+        <result property="uname" column="uname"></result>
+        <result property="age" column="age"></result>
+        <result property="sex" column="sex"></result>
+        <result property="account" column="account"></result>
+        <result property="email" column="email"></result>
+        <result property="password" column="password"></result>
+        <collection property="list" ofType="com.strutnut.bean.Role">
+            <id property="rid" column="rid"></id>
+            <result property="rname" column="rname"></result>
+            <result property="rdesc" column="rdesc"></result>
+        </collection>
+    </resultMap>
 </mapper>

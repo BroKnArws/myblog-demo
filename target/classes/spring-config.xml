@@ -7,15 +7,15 @@
 
     <context:component-scan base-package="com.strutnut"></context:component-scan>
 
-    <!--    é…ç½®è§†å›¾è§£æžå™¨     -->
+    <!--    ÅäÖÃÊÓÍ¼½âÎöÆ÷     -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <!--        å‰ç¼€çš„é…ç½®    -->
+        <!--        Ç°×ºµÄÅäÖÃ    -->
         <property name="prefix" value="/html/"></property>
-        <!--        åŽç¼€çš„é…ç½®    -->
+        <!--        ºó×ºµÄÅäÖÃ    -->
         <property name="suffix" value=".html"></property>
     </bean>
 
-    <!--    ç”¨äºŽå¤„ç†é™æ€èµ„æº  -->
+    <!--    ÓÃÓÚ´¦Àí¾²Ì¬×ÊÔ´  -->
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven />
 

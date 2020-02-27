@@ -7,56 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a75c9e08-9dd0-411b-be29-ab7b3865e89c" name="Default Changelist" comment="login-v0.1">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Dell.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/ICategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/ILogsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/IPostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/IRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/IThemeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/LogsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/PostMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/ThemeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Theme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/ILogsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/IPostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/IThemeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/LogsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/PostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/ThemeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/utils/MyRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/strutnut/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/filter/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a17f301a-7bb0-4120-951f-4a348eeeb711.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a17f301a-7bb0-4120-951f-4a348eeeb711.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/strutnut_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/strutnut_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/strutnut_war_exploded/WEB-INF/classes/META-INF/strutnut.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/strutnut_war_exploded/WEB-INF/classes/META-INF/strutnut.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/strutnut_war_exploded/WEB-INF/classes/com/strutnut/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/strutnut_war_exploded/WEB-INF/classes/com/strutnut/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/controller/DepartmentMessageController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/IUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/IUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/mapper/UserMapper" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/Theme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/Theme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/bean/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strutnut/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strutnut/utils/MyRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/strutnut.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/strutnut/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/strutnut/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/strutnut/controller/DepartmentMessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/strutnut/controller/DepartmentMessageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/strutnut/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/strutnut/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/strutnut/dao/IUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/strutnut/dao/IUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/strutnut/pojo/Department.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +77,20 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="logs: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -116,6 +112,7 @@
         <option value="FxmlFile" />
         <option value="mybatis-config-mysql" />
         <option value="Interface" />
+        <option value="Log4j2 File" />
         <option value="Class" />
       </list>
     </option>
@@ -162,6 +159,7 @@
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -173,7 +171,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/strutnut/dao/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/strutnut/pojo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -184,7 +182,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.20256111" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,7 +196,38 @@
       <recent name="D:\projects\strutnut\src\main\java\com\strutnut\dao\mapper" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyTest.test">
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strutnut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strutnut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strutnut" />
+      <option name="MAIN_CLASS_NAME" value="com.strutnut.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strutnut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strutnut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strutnut" />
+      <option name="MAIN_CLASS_NAME" value="com.strutnut.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9090/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -273,6 +302,12 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -324,8 +359,24 @@
       <workItem from="1582337153932" duration="1476000" />
       <workItem from="1582351276761" duration="1250000" />
       <workItem from="1582417914047" duration="6588000" />
-      <workItem from="1582437509686" duration="4952000" />
+      <workItem from="1582437509686" duration="5740000" />
+      <workItem from="1582506249798" duration="5010000" />
+      <workItem from="1582511753580" duration="1341000" />
+      <workItem from="1582527201444" duration="4464000" />
+      <workItem from="1582590580636" duration="4648000" />
+      <workItem from="1582612067980" duration="4060000" />
+      <workItem from="1582679199171" duration="2560000" />
+      <workItem from="1582697319209" duration="5791000" />
+      <workItem from="1582783411860" duration="5217000" />
     </task>
+    <task id="LOCAL-00001" summary="login-v0.1">
+      <created>1582443609008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582443609008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +384,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="login-v0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="login-v0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="69" key="#Deployment" timestamp="1582443111455">
@@ -359,10 +412,10 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="497" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.821@0.0.1536.821" timestamp="1582247313645" />
-    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1582248021233">
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1582791481301">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.821@0.0.1536.821" timestamp="1582248021233" />
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.821@0.0.1536.821" timestamp="1582791481301" />
     <state x="456" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582419935582">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
@@ -371,34 +424,34 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="481" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.821@0.0.1536.821" timestamp="1581557733057" />
-    <state x="322" y="2" key="CommitChangelistDialog2" timestamp="1582443541055">
+    <state x="322" y="2" key="CommitChangelistDialog2" timestamp="1582791708126">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state x="322" y="2" key="CommitChangelistDialog2/0.0.1536.821@0.0.1536.821" timestamp="1582443541055" />
+    <state x="322" y="2" key="CommitChangelistDialog2/0.0.1536.821@0.0.1536.821" timestamp="1582791708126" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1581557790215">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.821@0.0.1536.821" timestamp="1581557790215" />
-    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1582334813777">
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1582509383643">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1582334813777" />
-    <state width="1478" height="250" key="GridCell.Tab.0.bottom" timestamp="1582337069094">
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1582509383643" />
+    <state width="1478" height="89" key="GridCell.Tab.0.bottom" timestamp="1582791432971">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1478" height="250" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1582337069094" />
-    <state width="1478" height="250" key="GridCell.Tab.0.center" timestamp="1582337069094">
+    <state width="1478" height="89" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1582791432971" />
+    <state width="1478" height="89" key="GridCell.Tab.0.center" timestamp="1582791432971">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1478" height="250" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1582337069094" />
-    <state width="1478" height="250" key="GridCell.Tab.0.left" timestamp="1582337069094">
+    <state width="1478" height="89" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1582791432971" />
+    <state width="1478" height="89" key="GridCell.Tab.0.left" timestamp="1582791432970">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1478" height="250" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1582337069094" />
-    <state width="1478" height="250" key="GridCell.Tab.0.right" timestamp="1582337069094">
+    <state width="1478" height="89" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1582791432970" />
+    <state width="1478" height="89" key="GridCell.Tab.0.right" timestamp="1582791432971">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state width="1478" height="250" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1582337069094" />
+    <state width="1478" height="89" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1582791432971" />
     <state width="1014" height="111" key="GridCell.Tab.1.bottom" timestamp="1582337069089">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
@@ -431,14 +484,22 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state width="1014" height="111" key="GridCell.Tab.2.right/0.0.1536.821@0.0.1536.821" timestamp="1582337069089" />
-    <state x="257" y="0" key="SettingsEditor" timestamp="1582419797961">
+    <state x="299" y="66" key="Maven.ArtifactSearchDialog" timestamp="1582791123849">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state x="257" y="0" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1582419797961" />
-    <state x="485" y="50" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581558924868">
+    <state x="299" y="66" key="Maven.ArtifactSearchDialog/0.0.1536.821@0.0.1536.821" timestamp="1582791123849" />
+    <state x="-269" y="42" width="1153" height="715" key="SettingsEditor" timestamp="1582791337250">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
-    <state x="485" y="50" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.821@0.0.1536.821" timestamp="1581558924868" />
+    <state x="-269" y="42" width="1153" height="715" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1582791337250" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1582443625980">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.821@0.0.1536.821" timestamp="1582443625980" />
+    <state x="485" y="50" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582509366635">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="485" y="50" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.821@0.0.1536.821" timestamp="1582509366635" />
     <state x="621" y="124" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1581556615605">
       <screen x="0" y="0" width="1536" height="821" />
     </state>
@@ -447,6 +508,14 @@
       <screen x="0" y="0" width="1536" height="821" />
     </state>
     <state x="178" y="21" key="new project wizard/0.0.1536.821@0.0.1536.821" timestamp="1581648512521" />
+    <state x="511" y="28" key="refactoring.ChangeSignatureDialog" timestamp="1582527792652">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="511" y="28" key="refactoring.ChangeSignatureDialog/0.0.1536.821@0.0.1536.821" timestamp="1582527792652" />
+    <state x="425" y="188" width="672" height="677" key="run.anything.popup" timestamp="1582791325118">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="425" y="188" width="672" height="677" key="run.anything.popup/0.0.1536.821@0.0.1536.821" timestamp="1582791325118" />
     <state x="449" y="94" key="spring file set editor" timestamp="1582250035762">
       <screen x="0" y="0" width="1536" height="821" />
     </state>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF8"?>
+<Configuration status="OFF">
+    <!--    Appender 记录器，下面的Console/File等都是记录器 -->
+    <Appenders>
+        <!-- console 控制台输出的形式 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <!-- file 日志文件输出到文件
+            fileName:输出的文件目录名
+             append：是否以追加方式撰写 -->
+        <File name="file" fileName="log/output.log" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <!-- rollingFile -->
+        <RollingFile name="roolingFlie" fileName="logs/app.log"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <!--            日志文件的容量上限，达到上限自动创建新文件 -->
+            <SizeBasedTriggeringPolicy size="1kb"/>
+        </RollingFile>
+    </Appenders>
+
+
+    <Loggers>
+        <Root level="info">
+            <!--            用于注册记录器  -->
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="roolingFlie"/>
+        </Root>
+    </Loggers>
+</Configuration>
