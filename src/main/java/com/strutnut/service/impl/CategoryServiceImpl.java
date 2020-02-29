@@ -5,7 +5,8 @@ import org.springframework.stereotype.Service;
 
 
 @Service("CategoryService")
-public class CategoryServiceImpl implements ICategoryService {
+public class
+CategoryServiceImpl implements ICategoryService {
 
 
 }
