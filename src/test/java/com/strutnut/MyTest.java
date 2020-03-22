@@ -1,6 +1,7 @@
 package com.strutnut;
 
 import com.strutnut.config.SpringConfig;
+import com.strutnut.dao.IUserMapper;
 import com.strutnut.utils.TokenUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,10 +20,13 @@ public class MyTest {
     @Autowired
     TokenUtils tokenUtils;
 
+    @Autowired
+    IUserMapper userMapper;
+
     @Test
     public void test() {
         Logger logger = LogManager.getLogger(MyTest.class);
-        System.out.println(tokenUtils.expiration);
+        System.out.println(userMapper);
 
     }
 }

@@ -1,10 +1,10 @@
-package com.strutnut.bean;
+package com.strutnut.model.pojo;
 
 
+import java.io.Serializable;
 import java.util.List;
-import java.util.Set;
 
-public class User {
+public class User implements Serializable {
 
     private long uid;
     private String uname;
@@ -87,4 +87,17 @@ public class User {
     }
 
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "uid=" + uid +
+                ", uname='" + uname + '\'' +
+                ", age='" + age + '\'' +
+                ", sex='" + sex + '\'' +
+                ", account='" + account + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", roles=" + roles +
+                '}';
+    }
 }

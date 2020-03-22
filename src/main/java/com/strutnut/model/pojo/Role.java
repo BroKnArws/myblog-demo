@@ -1,4 +1,4 @@
-package com.strutnut.bean;
+package com.strutnut.model.pojo;
 
 
 public class Role {
@@ -32,6 +32,15 @@ public class Role {
 
   public void setRdesc(String rdesc) {
     this.rdesc = rdesc;
+  }
+
+  @Override
+  public String toString() {
+    return "Role{" +
+            "rid=" + rid +
+            ", rname='" + rname + '\'' +
+            ", rdesc='" + rdesc + '\'' +
+            '}';
   }
 
 }

@@ -1,4 +1,4 @@
-package com.strutnut.bean;
+package com.strutnut.model.pojo;
 
 
 public class Category {

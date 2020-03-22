@@ -1,12 +1,15 @@
 package com.strutnut.config;
 
+import com.strutnut.model.pojo.User;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
+import org.springframework.core.io.ClassPathResource;
+
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.sql.DataSource;
@@ -17,13 +20,8 @@ import javax.sql.DataSource;
 @PropertySource("classpath:mybatis-config.properties")
 public class SpringConfig {
 
-
-    @Bean
-    public InternalResourceViewResolver getViewResolver() {
-        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/html/");
-        viewResolver.setSuffix(".html");
-        return viewResolver;
+    public SpringConfig() {
+        System.out.println("OKSpringConfig");
     }
 
     @Value("${mybatis.driver}")
@@ -40,6 +38,7 @@ public class SpringConfig {
 
     @Bean
     public DataSource getDataSource() {
+        System.out.println("OKMyDataSource");
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(driverPath);
         dataSource.setPassword(password);
@@ -53,7 +52,20 @@ public class SpringConfig {
     public SqlSessionFactoryBean sqlSessionFactoryBean(DataSource dataSource) {
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource);
+        ClassPathResource[] mappers= new ClassPathResource[]{
+                new ClassPathResource("com/strutnut/dao/impl/UserMapper.xml"),
+                new ClassPathResource("com/strutnut/dao/impl/ThemeMapper.xml")
+        };
+        sqlSessionFactoryBean.setMapperLocations(mappers);
         return sqlSessionFactoryBean;
+    }
+
+    @Bean
+    ViewResolver viewResolver() {
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        viewResolver.setPrefix("/WEB-INF/");
+        viewResolver.setSuffix(".jsp");
+        return viewResolver;
     }
 
 }

@@ -1,6 +1,6 @@
 package com.strutnut.dao;
 
-import com.strutnut.bean.User;
+import com.strutnut.model.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
